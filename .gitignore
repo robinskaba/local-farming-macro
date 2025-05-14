@@ -39,3 +39,6 @@ build/
 
 .idea/*
 .idea
+out/*
+out
+JNativeHook.x86_64.dll
