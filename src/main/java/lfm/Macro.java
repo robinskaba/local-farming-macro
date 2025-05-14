@@ -189,7 +189,7 @@ public class Macro {
 
                     randomizedKeyAction(key, true); // re-press after resume
                     mouseDown();
-                    start = System.currentTimeMillis() - elapsed;
+                    start = System.currentTimeMillis() - elapsed - 300; // 300 buffer to account for the pause
                 }
 
                 try {
