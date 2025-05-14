@@ -1,0 +1,1 @@
+java -jar local-farming-macro.jar
